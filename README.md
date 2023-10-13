@@ -16,14 +16,3 @@ Sekolahku adalah aplikasi manajemen sekolah berbasis website yang di bangun dan 
 * Run `cp .env.example .env` for create .env file
 * Run `php artisan migrate --seed` for migration database
 * Run `php artisan storage:link` for create folder storage
-
-Note : Aplikasi ini akan terus saya update.<br>
-Jika ada pertanyaan bisa kontak aku di email ini <b>andridesmana29@outlook.com</b>
-</p>
-
-=======
-
-- Website Sekolah
-- PPDB
-- Perpustakaan
-- Alumni
