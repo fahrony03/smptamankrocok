@@ -8,6 +8,12 @@ Sekolahku adalah aplikasi manajemen sekolah berbasis website yang di bangun dan 
 - Perpustakaan (Done)
 - Alumni
 
+Download tools pendukung:
+1. Xampp php versi 8: https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/8.1.2/xampp-windows-x64-8.1.2-0-VS16-installer.exe/download
+2. Composer: https://getcomposer.org/Composer-Setup.exe
+3. Node Js: https://nodejs.org/en/download/
+4. Git Bash: https://git-scm.com/download/win
+
 ## Installation
 
 * Install [Composer](https://getcomposer.org/download) and [Npm](https://nodejs.org/en/download)
