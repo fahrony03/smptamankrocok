@@ -58,6 +58,8 @@ Route::middleware('auth')->group(function () {
             'backend-visimisi'  => Backend\Website\VisidanMisiController::class,
             //// PROGRAM STUDI \\\\
             'program-studi' =>  Backend\Website\ProgramController::class,
+            //// PROGRAM STUDI \\\\
+            'bahan-ajar' =>  Backend\Website\BahanAjarController::class,
             /// KEGIATAN \\\
             'backend-kegiatan' => Backend\Website\KegiatanController::class,
             /// IMAGE SLIDER \\\

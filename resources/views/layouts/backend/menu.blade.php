@@ -52,6 +52,19 @@
                             <span class="menu-item text-truncate" data-i18n="Basic">Ekstra</span>
                         </a>
                     </li>
+
+
+
+                    <li class="nav-item {{ (request()->is('bahan-ajar')) ? 'active' : '' }}">
+                        <a class="d-flex align-items-center" href=" {{route('bahan-ajar.index')}} "><i data-feather="circle"></i>
+                            <span class="menu-item text-truncate" data-i18n="Basic">Bahan Ajar</span>
+                        </a>
+                    </li>
+
+
+
+
+
                     <li class="nav-item {{ (request()->is('backend-kegiatan')) ? 'active' : '' }}">
                         <a class="d-flex align-items-center" href=" {{route('backend-kegiatan.index')}} "><i data-feather="circle"></i>
                             <span class="menu-item text-truncate" data-i18n="Basic">Kegiatan</span>
