@@ -16,6 +16,8 @@ use Illuminate\Support\Facades\Auth;
 // ======= FRONTEND ======= \\
 
 Route::get('/','Frontend\IndexController@index');
+Route::get('/kontak', 'Contact@showContactForm');
+Route::post('/kontak', 'Contact@sendMail');
 
     ///// MENU \\\\\
         //// PROFILE SEKOLAJ \\\\

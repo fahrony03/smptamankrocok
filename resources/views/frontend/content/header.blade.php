@@ -65,8 +65,8 @@
                             </li>
                             <li class="{{ (request()->is('berita')) ? 'active' : '' }}"><a href=" {{route('berita')}} ">Berita</a></li>
                             <li><a href="{{url('ppdb')}}" target="_blank">PPDB</a></li>
+                            <li class="{{ (request()->is('/kontak')) ? 'active' : '' }}"><a href="/kontak">KONTAK</a></li>
 
-                            {{-- <li class="{{ (request()->is('berita')) ? 'active' : '' }}"><a href=" {{route('berita')}} ">Kontak</a></li> --}}
 
                             {{-- <li><a href="#">Lainnya</a>
                                 <ul>
