@@ -6,7 +6,7 @@
                     <div class="header-top-left">
                         <div class="logo-area">
                             @if (@$footer->logo == NULL)
-                            <img class="img-responsive" src="{{asset('Assets/Frontend/img/logo-footer.png')}}" alt="logo">
+                            <img class="img-responsive" src="{{asset('Assets/Frontend/img/LOGO_SMP_TAMAN_KROCOK_RESMI.png')}}" alt="logo">
                         @else
                             <img class="img-responsive" src="{{asset('storage/images/logo/' .$footer->logo)}}" alt="logo">
                         @endif
@@ -65,8 +65,8 @@
                             </li>
                             <li class="{{ (request()->is('berita')) ? 'active' : '' }}"><a href=" {{route('berita')}} ">Berita</a></li>
                             <li><a href="{{url('ppdb')}}" target="_blank">PPDB</a></li>
-                            <li class="{{ (request()->is('/kontak')) ? 'active' : '' }}"><a href="/kontak">KONTAK</a></li>
 
+                            {{-- <li class="{{ (request()->is('berita')) ? 'active' : '' }}"><a href=" {{route('berita')}} ">Kontak</a></li> --}}
 
                             {{-- <li><a href="#">Lainnya</a>
                                 <ul>
