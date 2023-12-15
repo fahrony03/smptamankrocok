@@ -1,6 +1,6 @@
 @extends('layouts.Frontend.app')
 @section('title')
-    SMPN 1 Pujer Bondowoso
+    SMPN 1 Taman Krocok Bondowoso
 @endsection
 
 @section('content')
