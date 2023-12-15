@@ -64,7 +64,11 @@
                                 </ul>
                             </li>
                             <li class="{{ (request()->is('berita')) ? 'active' : '' }}"><a href=" {{route('berita')}} ">Berita</a></li>
-                            <li><a href="{{url('ppdb')}}" target="_blank">PPDB</a></li>
+
+                            <li><a href="{{url('Bahan Ajar')}}">Bahan Ajar</a></li>
+                            <li><a href="{{url('Kontak')}}">Kontak</a></li>
+
+                            {{-- <li><a href="{{url('ppdb')}}" target="_blank">PPDB</a></li> --}}
 
                             {{-- <li class="{{ (request()->is('berita')) ? 'active' : '' }}"><a href=" {{route('berita')}} ">Kontak</a></li> --}}
 
@@ -116,14 +120,18 @@
                                 </ul>
                             </li>
                             <li class="{{ (request()->is('berita')) ? 'active' : '' }}"><a href=" {{route('berita')}} ">Berita</a></li>
-                            <li><a href="{{url('ppdb')}}" target="_blank">PPDB</a></li>
 
-                            <li><a href="#">Lainnya</a>
+                            <li><a href="{{url('Bahan Ajar')}}">Bahan Ajar</a></li>
+                            <li><a href="{{url('Kontak')}}">Kontak</a></li>
+
+                            {{-- <li><a href="{{url('ppdb')}}" target="_blank">PPDB</a></li> --}}
+
+                            {{-- <li><a href="#">Lainnya</a>
                                 <ul>
                                     <li><a href="">Perpustakaan</a></li>
                                     <li><a href="">Alumni</a></li>
                                 </ul>
-                            </li>
+                            </li> --}}
                             <li>
                                 @auth
                                     <a href="">{{Auth::user()->name}}</a>
