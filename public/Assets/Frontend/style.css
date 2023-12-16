@@ -111,6 +111,10 @@ img {
   max-width: 100%;
   height: auto;
 }
+.img-logo {
+  height: 40px;
+  width: 40px;
+}
 ul {
   list-style: outside none none;
   margin: 0;
