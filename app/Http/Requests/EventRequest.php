@@ -27,7 +27,7 @@ class EventRequest extends FormRequest
         if ($this->method() == 'POST') {
             return [
                 'title'     => ['required','unique:events,title'],
-                'desc'      => [new MaxCharacters(200), 'required'],
+                'desc'      => ['required'],
                 'content'   => ['required'],
                 'acara'     => ['required'],
                 'lokasi'    => ['required'],
@@ -37,7 +37,7 @@ class EventRequest extends FormRequest
 
         return [
             'title'     => ['required'],
-            'desc'      => [new MaxCharacters(200), 'required'],
+            'desc'      => ['required'],
             'content'   => ['required'],
             'acara'     => ['required'],
             'lokasi'    => ['required'],

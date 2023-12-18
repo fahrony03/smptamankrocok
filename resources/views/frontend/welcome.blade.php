@@ -1,4 +1,4 @@
-@extends('layouts.Frontend.app')
+@extends('layouts.frontend.app')
 @section('title')
     SMPN 1 Taman Krocok Bondowoso
 @endsection

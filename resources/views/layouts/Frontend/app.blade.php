@@ -6,11 +6,12 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>@yield('title')</title>
+    <link rel="shortcut icon" href="{{asset('Assets/Frontend/img/LOGO_SMP_TAMAN_KROCOK_RESMI.png" type="image/x-icon">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
-    @include('layouts.Frontend.style')
+    @include('layouts.frontend.style')
 </head>
 
 <body>
@@ -55,7 +56,7 @@
         <!-- Footer Area End Here -->
     </div>
     <!-- Main Body Area End Here -->
-    @include('layouts.Frontend.scripts')
+    @include('layouts.frontend.scripts')
 </body>
 
 </html>
